@@ -1,0 +1,61 @@
+4. Тестирование платы Smart_Led:
+	
+    4.1 - Старт тестирования:	
+
+	ЗАПРОС:	
+	"TEST_LED" + CR
+
+	ОТВЕТ:
+	    "TEST_LED_ON" + LF		
+    
+    4.2 - Вкл/Выкл переферии:
+
+	ЗАПРОС:	
+	"POWER_ON_LED" + CR
+
+	ОТВЕТ:
+	true:
+	    "POWER_NI_ON" + LF
+	    "POWER_SUMM_NI_ON" + LF
+	false:
+	    "ERROR" + LF
+	
+	ЗАПРОС:	
+	"RELE_&_BIZ_ON" + CR
+
+	ОТВЕТ:
+	true:
+	    "RELE_TO_BIZ_ON" + LF
+	    "BIZ_TO_CPU_ON" + LF
+	false:
+	    "ERROR" + LF
+
+	ЗАПРОС:	
+	"BT_ON" + CR
+
+	ОТВЕТ:
+	true:
+	    "BLUETOOTH_INITIALIZED" + LF
+	false:
+	    "BLUETOOTH_NOT_INITIALIZED" + LF
+
+	ЗАПРОС:	
+	"BT_OFF" + CR
+
+	ОТВЕТ:
+	true:
+	    "BLUETOOTH_OFF" + LF
+	false:
+	    "ERROR" + LF
+
+    4.3 - Выбор теста:
+
+	1. ЗАПРОС:	"CPU_JLINK1" + CR
+	   ОТВЕТ:	1	
+	2. ЗАПРОС:	"CHECK_BT" + CR
+	   ОТВЕТ:	
+	   Отправляет список устройств в зоне видимости bluetooth.
+	   По окончании передачи списка устройств возвращает: 2	
+	
+Примечание: Для выхода из режима тестирования необходимо послать не существующую команду, пример: close;
+	    Парсим по строке: +INQ:1 0x5065836E02D8, и выводим "найденное" имя: TestStand
