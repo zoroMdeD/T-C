@@ -1,36 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=ERIS_STAND_DOUBLE.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\ERIS_STAND_DOUBLE -TC:\CooCox\CoIDE\configuration\ProgramData\ERIS_STAND_DOUBLE/link.ld -g">
-      <target file="ERIS_STAND_DOUBLE.elf" lastModified="17c736ca366">
-         <source file="..\obj\usb_core.o" lastModified="17c736c871b"/>
-         <source file="..\obj\delay.o" lastModified="17c736c8752"/>
-         <source file="..\obj\stm32_ub_usb_cdc.o" lastModified="17c736c8791"/>
-         <source file="..\obj\smart_cpu.o" lastModified="17c736c87e2"/>
-         <source file="..\obj\usbd_usr.o" lastModified="17c736c8821"/>
-         <source file="..\obj\command.o" lastModified="17c736c8c73"/>
-         <source file="..\obj\smart_rele.o" lastModified="17c736c8d8e"/>
-         <source file="..\obj\stm32f4xx_usart.o" lastModified="17c736c8de8"/>
-         <source file="..\obj\startup_stm32f4xx.o" lastModified="17c736c8e16"/>
-         <source file="..\obj\usbd_core.o" lastModified="17c736c8e66"/>
-         <source file="..\obj\main.o" lastModified="17c736c9c19"/>
-         <source file="..\obj\smart_biz.o" lastModified="17c736c9c6f"/>
-         <source file="..\obj\stm32f4xx_rcc.o" lastModified="17c736c9cbf"/>
-         <source file="..\obj\smart_led.o" lastModified="17c736c9d0a"/>
-         <source file="..\obj\smart_oled.o" lastModified="17c736c9d56"/>
-         <source file="..\obj\usbd_desc.o" lastModified="17c736c9d8f"/>
-         <source file="..\obj\stm32f4xx_gpio.o" lastModified="17c736c9dcc"/>
-         <source file="..\obj\usbd_cdc_vcp.o" lastModified="17c736c9e0f"/>
-         <source file="..\obj\system_stm32f4xx.o" lastModified="17c736c9e66"/>
-         <source file="..\obj\syscalls.o" lastModified="17c736c9ea0"/>
-         <source file="..\obj\usb_bsp.o" lastModified="17c736c9edd"/>
-         <source file="..\obj\usbd_req.o" lastModified="17c736c9f2d"/>
-         <source file="..\obj\usb_dcd_int.o" lastModified="17c736c9f7e"/>
-         <source file="..\obj\usbd_cdc_core.o" lastModified="17c736c9fc2"/>
-         <source file="..\obj\smart_wrele.o" lastModified="17c736ca00d"/>
-         <source file="..\obj\misc.o" lastModified="17c736ca043"/>
-         <source file="..\obj\usb_dcd.o" lastModified="17c736ca089"/>
-         <source file="..\obj\usbd_ioreq.o" lastModified="17c736ca0c3"/>
-         <source file="..\obj\stm32f4xx_tim.o" lastModified="17c736ca139"/>
+      <target file="ERIS_STAND_DOUBLE.elf" lastModified="17c7422adcb">
+         <source file="..\obj\usb_core.o" lastModified="17c74228a8a"/>
+         <source file="..\obj\delay.o" lastModified="17c74228ac1"/>
+         <source file="..\obj\stm32_ub_usb_cdc.o" lastModified="17c74228afb"/>
+         <source file="..\obj\smart_cpu.o" lastModified="17c74228d97"/>
+         <source file="..\obj\usbd_usr.o" lastModified="17c74228dd0"/>
+         <source file="..\obj\command.o" lastModified="17c74229194"/>
+         <source file="..\obj\smart_rele.o" lastModified="17c742296f3"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="17c7422973c"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="17c74229761"/>
+         <source file="..\obj\usbd_core.o" lastModified="17c742297a6"/>
+         <source file="..\obj\main.o" lastModified="17c7422a6ba"/>
+         <source file="..\obj\smart_biz.o" lastModified="17c7422a710"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="17c7422a75e"/>
+         <source file="..\obj\smart_led.o" lastModified="17c7422a7a8"/>
+         <source file="..\obj\smart_oled.o" lastModified="17c7422a7f1"/>
+         <source file="..\obj\usbd_desc.o" lastModified="17c7422a828"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="17c7422a866"/>
+         <source file="..\obj\usbd_cdc_vcp.o" lastModified="17c7422a8a7"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="17c7422a8f2"/>
+         <source file="..\obj\syscalls.o" lastModified="17c7422a92a"/>
+         <source file="..\obj\usb_bsp.o" lastModified="17c7422a965"/>
+         <source file="..\obj\usbd_req.o" lastModified="17c7422a9af"/>
+         <source file="..\obj\usb_dcd_int.o" lastModified="17c7422a9fc"/>
+         <source file="..\obj\usbd_cdc_core.o" lastModified="17c7422aa3c"/>
+         <source file="..\obj\smart_wrele.o" lastModified="17c7422aa84"/>
+         <source file="..\obj\misc.o" lastModified="17c7422aab8"/>
+         <source file="..\obj\usb_dcd.o" lastModified="17c7422aafb"/>
+         <source file="..\obj\usbd_ioreq.o" lastModified="17c7422ab34"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="17c7422aba6"/>
       </target>
    </processor>
 </history>

@@ -37,14 +37,14 @@ uint8_t Change_Test_Cpu(void)
 
 		return 2;
 	}
-	else if(strcmp(buffer_command,"CPU_24V") == 0)
+	else if(strcmp(buffer_command,"CPU_24V") == 0)	//Проверяем наличие 24В, по факту 23.3В(падение на защитном диоде)
 	{
 		CLR_CPU_Pins();
 		GPIOH->ODR |= GPIO_ODR_ODR_6;
 
 		return 3;
 	}
-	else if(strcmp(buffer_command,"CPU_C54") == 0)
+	else if(strcmp(buffer_command,"CPU_C54") == 0)	//Проверяем наличие 3.3В
 	{
 		CLR_CPU_Pins();
 		GPIOH->ODR |= GPIO_ODR_ODR_9;
@@ -77,13 +77,13 @@ uint8_t Change_Test_Cpu(void)
 	{
 		CLR_CPU_Pins();
 
-		GPIOC->ODR |= GPIO_ODR_ODR_2;
-		delay(2000);
-		GPIOC->ODR &= ~GPIO_ODR_ODR_2;
-		GPIOC->ODR |= GPIO_ODR_ODR_1;
+		GPIOC->ODR |= GPIO_ODR_ODR_1;		//1-й магнит
 		delay(2000);
 		GPIOC->ODR &= ~GPIO_ODR_ODR_1;
-		GPIOC->ODR |= GPIO_ODR_ODR_0;
+		GPIOC->ODR |= GPIO_ODR_ODR_2;		//2-ой магнит
+		delay(2000);
+		GPIOC->ODR &= ~GPIO_ODR_ODR_2;
+		GPIOC->ODR |= GPIO_ODR_ODR_0;		//3-й магнит
 		delay(2000);
 		GPIOC->ODR &= ~GPIO_ODR_ODR_0;
 
@@ -96,26 +96,28 @@ uint8_t Change_Test_Cpu(void)
 
 		return 9;
 	}
-	else if(strcmp(buffer_command,"HART") == 0)
+	else if(strcmp(buffer_command,"HART") == 0)	//Не работает!
 	{
 		CLR_CPU_Pins();
 		GPIOG->ODR |= GPIO_ODR_ODR_3;
 
 		return 10;
 	}
-	/*
+
 	else if(strcmp(buffer_command,"CPU_RUN") == 0)
 	{
-		//-----------CPU_ETALON_TEST_ON------------------
-		CPU_ETALON_TEST_ON;
+		//-----------CPU_TEST_ON------------------
+		RELE_TO_BIZ_ON;
+		BIZ_TO_CPU_ON;
 		delay(20);
-		if((GPIOB->IDR & GPIO_Pin_4) != 0)
+		if(((GPIOB->IDR & GPIO_Pin_4) != 0) && ((GPIOB->IDR & GPIO_Pin_10) != 0))
 		{
-			VCP_send_buffer_new("CPU_ETALON_TEST_ON\n",19);
+			VCP_send_buffer_new("RELE_TO_BIZ_ON\n",15);
+			VCP_send_buffer_new("BIZ_TO_CPU_ON\n",14);
 		}
 		else
 			VCP_send_buffer_new("ERROR\n",6);
-		//-----------END_CPU_ETALON_TEST_ON--------------
+		//-----------END_CPU_TEST_ON--------------
 		delay(250);
 		//------------------SERIAL-----------------------
 		CLR_CPU_Pins();
@@ -126,7 +128,6 @@ uint8_t Change_Test_Cpu(void)
 		//---------------POWER_ON_CPU--------------------
 		POWER_NI_ON;
 		POWER_SUMM_NI_ON;
-		POWER_RESERVED_RELAY_ON;
 		delay(20);
 		if(((GPIOF->IDR & GPIO_Pin_11) != 0) && ((GPIOF->IDR & GPIO_Pin_12) != 0))
 		{
@@ -136,11 +137,10 @@ uint8_t Change_Test_Cpu(void)
 		else
 			VCP_send_buffer_new("ERROR\n",6);
 
-		FIND_LIGHT_ETALON_LED();
+		FIND_LIGHT_LED();
 		//------------END_POWER_ON_CPU--------------------
 		return 11;
 	}
-	*/
 	else
 	{
 		CLR_CPU_Pins();
