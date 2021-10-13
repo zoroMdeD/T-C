@@ -251,12 +251,14 @@ uint8_t Change_Test_Biz(void)
 
 		return 31;
 	}
+	/* Тест убран
 	else if(strcmp(buffer_command,"LINE6") == 0)
 	{
 		CLR_BIZ_Pins();
 
 		return 32;
 	}
+	*/
 	else
 	{
 		CLR_BIZ_Pins();

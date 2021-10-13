@@ -43,21 +43,29 @@ int main(void)
 						check = UB_USB_CDC_ReceiveString(buffer_command);
 						if(check == RX_READY)
 						{
-							if(strcmp(buffer_command,"RELE_TO_BIZ_ON") == 0)
+							if(strcmp(buffer_command,"RELE_&_BIZ_ON") == 0)
 							{
 								RELE_TO_BIZ_ON;
+								BIZ_TO_CPU_ON;
 								delay(20);
-								if((GPIOB->IDR & GPIO_Pin_4) != 0)
+								if(((GPIOB->IDR & GPIO_Pin_4) > 0) && ((GPIOB->IDR & GPIO_Pin_10) > 0))
+								{
 									VCP_send_buffer_new("RELE_TO_BIZ_ON\n",15);
+									VCP_send_buffer_new("BIZ_TO_CPU_ON\n",14);
+								}
 								else
 									VCP_send_buffer_new("ERROR\n",6);
 							}
-							else if(strcmp(buffer_command,"RELE_TO_BIZ_OFF") == 0)
+							else if(strcmp(buffer_command,"RELE_&_BIZ_OFF") == 0)
 							{
 								RELE_TO_BIZ_OFF;
+								BIZ_TO_CPU_OFF;
 								delay(20);
-								if((GPIOB->IDR & GPIO_Pin_4) == 0)
+								if(((GPIOB->IDR & GPIO_Pin_4) < 1) && ((GPIOB->IDR & GPIO_Pin_10) < 1))
+								{
 									VCP_send_buffer_new("RELE_TO_BIZ_OFF\n",16);
+									VCP_send_buffer_new("BIZ_TO_CPU_OFF\n",15);
+								}
 								else
 									VCP_send_buffer_new("ERROR\n",6);
 							}
@@ -71,6 +79,7 @@ int main(void)
 					while (pnt != 0);
 					POWER_NI_OFF;
 					RELE_TO_BIZ_OFF;
+					BIZ_TO_CPU_OFF;
 				}
 				else if(strcmp(buffer_command,"TEST_RELE") == 0)	//Запустить тестирование платы Smart_Rele
 				{
@@ -84,10 +93,12 @@ int main(void)
 							if(strcmp(buffer_command,"POWER_RELE_ON") == 0)
 							{
 								POWER_NI_ON;
+								POWER_SUMM_NI_ON;
 								delay(20);
-								if((GPIOF->IDR & GPIO_Pin_11) != 0)
+								if(((GPIOF->IDR & GPIO_Pin_11) > 0) && ((GPIOF->IDR & GPIO_Pin_12) > 0))
 								{
 									VCP_send_buffer_new("POWER_NI_ON\n",12);
+									VCP_send_buffer_new("POWER_SUMM_NI_ON\n",17);
 								}
 								else
 									VCP_send_buffer_new("ERROR\n",6);
@@ -95,10 +106,12 @@ int main(void)
 							else if(strcmp(buffer_command,"POWER_RELE_OFF") == 0)
 							{
 								POWER_NI_OFF;
+								POWER_SUMM_NI_OFF
 								delay(20);
-								if((GPIOF->IDR & GPIO_Pin_11) != 1)
+								if(((GPIOF->IDR & GPIO_Pin_11) < 1) && ((GPIOF->IDR & GPIO_Pin_12) < 1))
 								{
 									VCP_send_buffer_new("POWER_NI_OFF\n",13);
+									VCP_send_buffer_new("POWER_SUMM_NI_OFF\n",18);
 								}
 								else
 									VCP_send_buffer_new("ERROR\n",6);
@@ -112,6 +125,7 @@ int main(void)
 					}
 					while (pnt != 0);
 					POWER_NI_OFF;
+					POWER_SUMM_NI_OFF
 				}
 				else if(strcmp(buffer_command,"TEST_LED") == 0)		//Запустить тестирование платы Smart_Led
 				{
@@ -127,7 +141,7 @@ int main(void)
 								POWER_NI_ON;
 								POWER_SUMM_NI_ON;
 								delay(20);
-								if(((GPIOF->IDR & GPIO_Pin_11) != 0) && ((GPIOF->IDR & GPIO_Pin_12) != 0))
+								if(((GPIOF->IDR & GPIO_Pin_11) > 0) && ((GPIOF->IDR & GPIO_Pin_12) > 0))
 								{
 									VCP_send_buffer_new("POWER_NI_ON\n",12);
 									VCP_send_buffer_new("POWER_SUMM_NI_ON\n",17);
@@ -142,7 +156,7 @@ int main(void)
 								RELE_TO_BIZ_ON;
 								BIZ_TO_CPU_ON;
 								delay(20);
-								if(((GPIOB->IDR & GPIO_Pin_4) != 0) && ((GPIOB->IDR & GPIO_Pin_10) != 0))
+								if(((GPIOB->IDR & GPIO_Pin_4) > 0) && ((GPIOB->IDR & GPIO_Pin_10) > 0))
 								{
 									VCP_send_buffer_new("RELE_TO_BIZ_ON\n",15);
 									VCP_send_buffer_new("BIZ_TO_CPU_ON\n",14);
@@ -159,7 +173,7 @@ int main(void)
 							{
 								BlueTooth_OFF;
 								delay(20);
-								if((GPIOE->IDR & GPIO_Pin_2) != 1)
+								if((GPIOE->IDR & GPIO_Pin_2) < 1)
 								{
 									VCP_send_buffer_new("BLUETOOTH_OFF\n",14);
 								}
@@ -194,7 +208,7 @@ int main(void)
 								POWER_NI_ON;
 								POWER_SUMM_NI_ON;
 								delay(20);
-								if(((GPIOF->IDR & GPIO_Pin_11) != 0) && ((GPIOF->IDR & GPIO_Pin_12) != 0))
+								if(((GPIOF->IDR & GPIO_Pin_11) > 0) && ((GPIOF->IDR & GPIO_Pin_12) > 0))
 								{
 									VCP_send_buffer_new("POWER_NI_ON\n",12);
 									VCP_send_buffer_new("POWER_SUMM_NI_ON\n",17);
@@ -207,7 +221,7 @@ int main(void)
 								POWER_NI_OFF;
 								POWER_SUMM_NI_OFF;
 								delay(20);
-								if(((GPIOF->IDR & GPIO_Pin_11) != 1) && ((GPIOF->IDR & GPIO_Pin_12) != 1))
+								if(((GPIOF->IDR & GPIO_Pin_11) < 1) && ((GPIOF->IDR & GPIO_Pin_12) < 1))
 								{
 									VCP_send_buffer_new("POWER_NI_OFF\n",13);
 									VCP_send_buffer_new("POWER_SUMM_NI_OFF\n",18);
@@ -220,7 +234,7 @@ int main(void)
 								RELE_TO_BIZ_ON;
 								BIZ_TO_CPU_ON;
 								delay(20);
-								if(((GPIOB->IDR & GPIO_Pin_4) != 0) && ((GPIOB->IDR & GPIO_Pin_10) != 0))
+								if(((GPIOB->IDR & GPIO_Pin_4) > 0) && ((GPIOB->IDR & GPIO_Pin_10) > 0))
 								{
 									VCP_send_buffer_new("RELE_TO_BIZ_ON\n",15);
 									VCP_send_buffer_new("BIZ_TO_CPU_ON\n",14);
@@ -233,7 +247,7 @@ int main(void)
 								RELE_TO_BIZ_OFF;
 								BIZ_TO_CPU_OFF;
 								delay(20);
-								if(((GPIOB->IDR & GPIO_Pin_4) != 1) && ((GPIOB->IDR & GPIO_Pin_10) != 1))
+								if(((GPIOB->IDR & GPIO_Pin_4) < 1) && ((GPIOB->IDR & GPIO_Pin_10) < 1))
 								{
 									VCP_send_buffer_new("RELE_TO_BIZ_OFF\n",16);
 									VCP_send_buffer_new("BIZ_TO_CPU_OFF\n",15);

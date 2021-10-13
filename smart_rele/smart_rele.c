@@ -47,9 +47,9 @@ uint8_t Change_Test_Rele(void)
 		CLR_RELE_Pins();
 		Control_Rele_Pins_SET();
 		delay(250);
-		if((GPIOF->IDR & GPIO_Pin_1) != 0)
+		if((GPIOF->IDR & GPIO_Pin_1) > 0)
 		{
-			if((GPIOF->IDR & GPIO_Pin_2) != 1)
+			if((GPIOF->IDR & GPIO_Pin_2) < 1)
 			{
 				VCP_send_buffer_new("ONE: [OK]\n",10);
 			}
@@ -59,9 +59,9 @@ uint8_t Change_Test_Rele(void)
 			VCP_send_buffer_new("ONE: [NO]\n",10);
 		}
 		delay(50);
-		if((GPIOF->IDR & GPIO_Pin_4) != 0)
+		if((GPIOF->IDR & GPIO_Pin_4) > 0)
 		{
-			if((GPIOF->IDR & GPIO_Pin_5) != 1)
+			if((GPIOF->IDR & GPIO_Pin_5) < 1)
 			{
 				VCP_send_buffer_new("TWO: [OK]\n",10);
 			}
@@ -71,9 +71,9 @@ uint8_t Change_Test_Rele(void)
 			VCP_send_buffer_new("TWO: [NO]\n",10);
 		}
 		delay(50);
-		if((GPIOF->IDR & GPIO_Pin_7) != 0)
+		if((GPIOF->IDR & GPIO_Pin_7) > 0)
 		{
-			if((GPIOF->IDR & GPIO_Pin_8) != 1)
+			if((GPIOF->IDR & GPIO_Pin_8) < 1)
 			{
 				VCP_send_buffer_new("THREE: [OK]\n",12);
 			}
@@ -90,9 +90,9 @@ uint8_t Change_Test_Rele(void)
 		CLR_RELE_Pins();
 		Control_Rele_Pins_SET();
 		delay(250);
-		if((GPIOF->IDR & GPIO_Pin_2) != 0)
+		if((GPIOF->IDR & GPIO_Pin_2) > 0)
 		{
-			if((GPIOF->IDR & GPIO_Pin_1) != 1)
+			if((GPIOF->IDR & GPIO_Pin_1) < 1)
 			{
 				VCP_send_buffer_new("ONE: [OK]\n",10);
 			}
@@ -102,9 +102,9 @@ uint8_t Change_Test_Rele(void)
 			VCP_send_buffer_new("ONE: [NO]\n",10);
 		}
 		delay(50);
-		if((GPIOF->IDR & GPIO_Pin_5) != 0)
+		if((GPIOF->IDR & GPIO_Pin_5) > 0)
 		{
-			if((GPIOF->IDR & GPIO_Pin_4) != 1)
+			if((GPIOF->IDR & GPIO_Pin_4) < 1)
 			{
 				VCP_send_buffer_new("TWO: [OK]\n",10);
 			}
@@ -114,9 +114,9 @@ uint8_t Change_Test_Rele(void)
 			VCP_send_buffer_new("TWO: [NO]\n",10);
 		}
 		delay(50);
-		if((GPIOF->IDR & GPIO_Pin_8) != 0)
+		if((GPIOF->IDR & GPIO_Pin_8) > 0)
 		{
-			if((GPIOF->IDR & GPIO_Pin_7) != 1)
+			if((GPIOF->IDR & GPIO_Pin_7) < 1)
 			{
 				VCP_send_buffer_new("THREE: [OK]\n",12);
 

@@ -65,7 +65,7 @@ uint8_t Change_Test_Cpu(void)
 
 		return 6;
 	}
-	else if(strcmp(buffer_command,"SERIAL") == 0)
+	else if(strcmp(buffer_command,"SERIAL") == 0)	//Не понятно для чего!!!
 	{
 		CLR_CPU_Pins();
 		GPIOG->ODR |= GPIO_ODR_ODR_2;
@@ -96,7 +96,7 @@ uint8_t Change_Test_Cpu(void)
 
 		return 9;
 	}
-	else if(strcmp(buffer_command,"HART") == 0)	//Не работает!
+	else if(strcmp(buffer_command,"HART") == 0)	//Не работает!!!
 	{
 		CLR_CPU_Pins();
 		GPIOG->ODR |= GPIO_ODR_ODR_3;
