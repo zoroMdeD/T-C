@@ -28,41 +28,42 @@
 <part id="8"/>
 <part id="9"/>
 <part id="10"/>
+<part id="11"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/main.c" title="main.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="4478" selectionTopPixel="1845"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="5312" selectionTopPixel="2925"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="smart_biz.c" partName="smart_biz.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_biz/smart_biz.c" title="smart_biz.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_biz/smart_biz.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/smart_biz/smart_biz.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1103" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5428" selectionTopPixel="3326"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="smart_led.c" partName="smart_led.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_led/smart_led.c" title="smart_led.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_led/smart_led.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="smart_led.c" partName="smart_led.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_led/smart_led.c" title="smart_led.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_led/smart_led.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/smart_led/smart_led.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="253" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="955" selectionTopPixel="135"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="command.c" partName="command.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/command/command.c" title="command.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/command/command.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/command/command.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15935" selectionTopPixel="7380"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15954" selectionTopPixel="7770"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/main.h" title="main.h" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/main.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/main.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1704" selectionTopPixel="113"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1742" selectionTopPixel="176"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="smart_rele.c" partName="smart_rele.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_rele/smart_rele.c" title="smart_rele.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_rele/smart_rele.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/smart_rele/smart_rele.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2752" selectionTopPixel="2066"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="2665" selectionTopPixel="56"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="command.h" partName="command.h" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/command/command.h" title="command.h" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/command/command.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/command/command.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="698" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="smart_cpu.c" partName="smart_cpu.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_cpu/smart_cpu.c" title="smart_cpu.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_cpu/smart_cpu.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="smart_cpu.c" partName="smart_cpu.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_cpu/smart_cpu.c" title="smart_cpu.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_cpu/smart_cpu.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/smart_cpu/smart_cpu.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="1678" selectionTopPixel="135"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1881" selectionTopPixel="851"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="smart_wrele.c" partName="smart_wrele.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_wrele/smart_wrele.c" title="smart_wrele.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_wrele/smart_wrele.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/smart_wrele/smart_wrele.c"/>
@@ -75,6 +76,10 @@
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="smart_oled.c" partName="smart_oled.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_oled/smart_oled.c" title="smart_oled.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_oled/smart_oled.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/smart_oled/smart_oled.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="965" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="usb_core.c" partName="usb_core.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/ub_lib/usb_cdc_lolevel/usb_core.c" title="usb_core.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/ub_lib/usb_cdc_lolevel/usb_core.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/ub_lib/usb_cdc_lolevel/usb_core.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="60" selectionOffset="2896" selectionTopPixel="1455"/>
 </editor>
 </editors>
 <views>
@@ -97,7 +102,7 @@
 <element path="/ERIS_STAND_DOUBLE/ub_lib/usb_cdc_lolevel"/>
 </expanded>
 <selection>
-<element path="/ERIS_STAND_DOUBLE/smart_led/smart_led.c"/>
+<element path="/ERIS_STAND_DOUBLE/smart_cpu/smart_cpu.c"/>
 </selection>
 </viewState>
 </view>
@@ -187,7 +192,7 @@
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@11b2e0" ratio="0.8202247" ratioLeft="803" ratioRight="176" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1dec26d">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11b2e0" ratio="0.7711951" ratioLeft="755" ratioRight="224" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1dec26d">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
@@ -331,162 +336,161 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/main.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/command/command.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/command/command.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_led/smart_led.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_led/smart_led.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_cpu/smart_cpu.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/main.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_biz/smart_biz.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_led/smart_led.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/command/command.c"/>
 </editors>
-<item historyLabel="main.h" index="1">
-<position info="not_deleted" x="1618" y="12"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2790" y="0"/>
 </item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="2389" y="0"/>
+<item historyLabel="main.h" index="2">
+<position info="not_deleted" x="945" y="14"/>
 </item>
-<item historyLabel="command.h" index="3">
-<position info="not_deleted" x="648" y="0"/>
+<item historyLabel="main.h" index="2">
+<position info="not_deleted" x="1063" y="13"/>
 </item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="2370" y="25"/>
-</item>
-<item historyLabel="command.h" index="3">
-<position info="not_deleted" x="698" y="0"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="2370" y="25"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="2195" y="0"/>
+<item historyLabel="smart_biz.c" index="3">
+<position info="not_deleted" x="4842" y="5"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4112" y="19"/>
+<position info="not_deleted" x="1940" y="0"/>
 </item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="14665" y="0"/>
-</item>
-<item historyLabel="main.h" index="1">
-<position info="not_deleted" x="1618" y="12"/>
+<item historyLabel="smart_biz.c" index="3">
+<position info="not_deleted" x="5428" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4112" y="19"/>
+<position info="not_deleted" x="1940" y="0"/>
 </item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="14665" y="0"/>
-</item>
-<item historyLabel="main.h" index="1">
-<position info="not_deleted" x="1704" y="0"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="14665" y="0"/>
+<item historyLabel="smart_led.c" index="4">
+<position info="not_deleted" x="861" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4112" y="19"/>
+<position info="not_deleted" x="5064" y="0"/>
 </item>
 <item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="587" y="15"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4016" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="587" y="15"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4121" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="932" y="0"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="15757" y="20"/>
-</item>
-<item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="932" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4126" y="0"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position/>
-</item>
-<item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="932" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4126" y="0"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="16048" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="932" y="0"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="16048" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="932" y="0"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="15887" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="932" y="0"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="15887" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="970" y="0"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="15887" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="999" y="0"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4126" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="1044" y="0"/>
-</item>
-<item historyLabel="command.c" index="2">
-<position info="not_deleted" x="15935" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="4">
-<position info="not_deleted" x="1044" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4126" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="5">
-<position info="not_deleted" x="1082" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="5">
 <position info="not_deleted" x="606" y="15"/>
 </item>
-<item historyLabel="smart_cpu.c" index="6">
-<position info="not_deleted" x="1664" y="29"/>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="13427" y="0"/>
 </item>
-<item historyLabel="smart_led.c" index="5">
-<position info="not_deleted" x="700" y="0"/>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="15862" y="0"/>
 </item>
-<item historyLabel="smart_cpu.c" index="6">
-<position info="not_deleted" x="1692" y="0"/>
+<item historyLabel="smart_led.c" index="4">
+<position info="not_deleted" x="971" y="0"/>
 </item>
-<item historyLabel="smart_led.c" index="5">
-<position info="not_deleted" x="549" y="0"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4713" y="0"/>
 </item>
-<item historyLabel="smart_cpu.c" index="6">
-<position info="not_deleted" x="1678" y="14"/>
+<item historyLabel="smart_led.c" index="4">
+<position info="not_deleted" x="971" y="0"/>
 </item>
-<item active="true" historyLabel="smart_led.c" index="5">
-<position info="not_deleted" x="549" y="0"/>
+<item historyLabel="command.c" index="5">
+<position/>
+</item>
+<item historyLabel="smart_led.c" index="4">
+<position info="not_deleted" x="949" y="0"/>
+</item>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="15966" y="0"/>
+</item>
+<item historyLabel="smart_led.c" index="4">
+<position info="not_deleted" x="949" y="0"/>
+</item>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="15966" y="0"/>
+</item>
+<item historyLabel="smart_led.c" index="4">
+<position info="not_deleted" x="949" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="4668" y="12"/>
+</item>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="1424" y="0"/>
+</item>
+<item historyLabel="smart_led.c" index="4">
+<position info="not_deleted" x="949" y="0"/>
+</item>
+<item historyLabel="smart_led.c" index="4">
+<position info="not_deleted" x="955" y="20"/>
+</item>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="16152" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="10" y="4"/>
+</item>
+<item historyLabel="main.h" index="2">
+<position info="not_deleted" x="1776" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="330" y="13"/>
+</item>
+<item historyLabel="main.h" index="2">
+<position info="not_deleted" x="1732" y="10"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="344" y="0"/>
+</item>
+<item historyLabel="main.h" index="2">
+<position info="not_deleted" x="1732" y="10"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="262" y="0"/>
+</item>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="1996" y="8"/>
+</item>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="2081" y="0"/>
+</item>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="3221" y="15"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="262" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="333" y="10"/>
+</item>
+<item historyLabel="main.h" index="2">
+<position info="not_deleted" x="1742" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="925" y="0"/>
+</item>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="3221" y="15"/>
+</item>
+<item historyLabel="smart_led.c" index="4">
+<position info="not_deleted" x="955" y="20"/>
+</item>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="15776" y="20"/>
+</item>
+<item historyLabel="command.c" index="5">
+<position/>
+</item>
+<item historyLabel="smart_led.c" index="4">
+<position info="not_deleted" x="955" y="20"/>
+</item>
+<item historyLabel="command.c" index="5">
+<position info="not_deleted" x="15954" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5586" y="12"/>
+</item>
+<item historyLabel="smart_cpu.c" index="1">
+<position info="not_deleted" x="1066" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="5312" y="8"/>
+</item>
+<item active="true" historyLabel="smart_cpu.c" index="1">
+<position info="not_deleted" x="1066" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "delay.h"
+#include "main.h"
 
 #define	YES	0x59								//Статус фотодиода (работает)
 #define	NO	0x4E								//Статус фотодиода (не работает)
@@ -540,11 +541,20 @@ uint8_t BT05_Seach_Bluetooth(void)
 		cicle = 1;
 		tail = 0;
 	}
-	else if(tail > 0)
-		if(strstr(RX_BUF, "+INQ:") != NULL)
+	if(tail > 0)
+	{
+		if(strstr(RX_BUF,"+INQ:no equipment") != NULL)
+		{
+			VCP_send_buffer_new(RX_BUF, RXi);
+			clear_RXBuffer();
+			cicle = 1;
+			tail = 0;
+		}
+		else if(strstr(RX_BUF,"+INQ:") != NULL)
 		{
 			VCP_send_buffer_new(RX_BUF, RXi);
 		}
+	}
 
 	return cicle;
 }

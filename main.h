@@ -51,8 +51,10 @@
 //#define POWER_RESERVED_RELAY_ON		GPIOA->ODR |= GPIO_ODR_ODR_4;
 //#define POWER_RESERVED_RELAY_OFF		GPIOA->ODR &= ~GPIO_ODR_ODR_4;
 
-#define BlueTooth_ON					GPIOE->ODR |= GPIO_ODR_ODR_2;
-#define BlueTooth_OFF					GPIOE->ODR &= ~GPIO_ODR_ODR_2;
+#define BlueTooth_ON				GPIOE->ODR |= GPIO_ODR_ODR_2;
+#define BlueTooth_OFF				GPIOE->ODR &= ~GPIO_ODR_ODR_2;
+
+#define REBOOT_USB					GPIOD->ODR |= GPIO_ODR_ODR_0;
 
 #endif
 

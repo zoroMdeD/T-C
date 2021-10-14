@@ -16,9 +16,11 @@ int main(void)
 
 	SystemInit();
 	INIT_All();
-	GPIOD->ODR |= GPIO_ODR_ODR_0;
-
 	delay_init(1000);
+
+	delay(2000);	//Задержка включения USB
+	REBOOT_USB;
+
 	UB_USB_CDC_Init();		//Инициализация USB-OTG-порта как CDC-устройство
 
 	while(1)
