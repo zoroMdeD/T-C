@@ -12,7 +12,6 @@ void TIM6_DAC_IRQHandler()
 int main(void)
 {
 	check = RX_EMPTY;
-	check_button = 0;
 
 	SystemInit();
 	INIT_All();
@@ -33,12 +32,6 @@ int main(void)
 				if(strcmp(buffer_command,"TEST_BIZ") == 0)			//Запустить тестирование платы Smart_Biz
 				{
 					VCP_send_buffer_new("TEST_BIZ_ON\n",12);
-					POWER_NI_ON;
-					delay(20);
-					if((GPIOF->IDR & GPIO_Pin_11) != 0)
-						VCP_send_buffer_new("POWER_NI_ON\n",12);
-					else
-						VCP_send_buffer_new("ERROR\n",6);
 					pnt = 1;
 					do
 					{
@@ -67,6 +60,28 @@ int main(void)
 								{
 									VCP_send_buffer_new("RELE_TO_BIZ_OFF\n",16);
 									VCP_send_buffer_new("BIZ_TO_CPU_OFF\n",15);
+								}
+								else
+									VCP_send_buffer_new("ERROR\n",6);
+							}
+							else if(strcmp(buffer_command,"POWER_BIZ_ON") == 0)
+							{
+								POWER_NI_ON;
+								delay(20);
+								if((GPIOF->IDR & GPIO_Pin_11) > 0)
+								{
+									VCP_send_buffer_new("POWER_NI_ON\n",12);
+								}
+								else
+									VCP_send_buffer_new("ERROR\n",6);
+							}
+							else if(strcmp(buffer_command,"POWER_BIZ_OFF") == 0)
+							{
+								POWER_NI_OFF;
+								delay(20);
+								if((GPIOF->IDR & GPIO_Pin_11) < 1)
+								{
+									VCP_send_buffer_new("POWER_NI_OFF\n",13);
 								}
 								else
 									VCP_send_buffer_new("ERROR\n",6);
@@ -147,11 +162,10 @@ int main(void)
 								{
 									VCP_send_buffer_new("POWER_NI_ON\n",12);
 									VCP_send_buffer_new("POWER_SUMM_NI_ON\n",17);
+									FIND_LIGHT_LED();
 								}
 								else
 									VCP_send_buffer_new("ERROR\n",6);
-
-								FIND_LIGHT_LED();
 							}
 							else if(strcmp(buffer_command,"RELE_&_BIZ_ON") == 0)
 							{

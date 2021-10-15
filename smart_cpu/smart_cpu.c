@@ -65,7 +65,7 @@ uint8_t Change_Test_Cpu(void)
 
 		return 6;
 	}
-	else if(strcmp(buffer_command,"SERIAL") == 0)	//Не понятно для чего!!!
+	else if(strcmp(buffer_command,"SERIAL") == 0)
 	{
 		CLR_CPU_Pins();
 		GPIOG->ODR |= GPIO_ODR_ODR_2;
@@ -96,7 +96,7 @@ uint8_t Change_Test_Cpu(void)
 
 		return 9;
 	}
-	else if(strcmp(buffer_command,"HART") == 0)	//Не работает!!!
+	else if(strcmp(buffer_command,"HART") == 0)
 	{
 		CLR_CPU_Pins();
 		GPIOG->ODR |= GPIO_ODR_ODR_3;
@@ -106,39 +106,40 @@ uint8_t Change_Test_Cpu(void)
 
 	else if(strcmp(buffer_command,"CPU_RUN") == 0)
 	{
-		//-----------CPU_TEST_ON------------------
 		RELE_TO_BIZ_ON;
 		BIZ_TO_CPU_ON;
 		delay(20);
-		if(((GPIOB->IDR & GPIO_Pin_4) != 0) && ((GPIOB->IDR & GPIO_Pin_10) != 0))
+		if(((GPIOB->IDR & GPIO_Pin_4) > 0) && ((GPIOB->IDR & GPIO_Pin_10) > 0))
 		{
+			//-----------CPU_TEST_ON------------------
 			VCP_send_buffer_new("RELE_TO_BIZ_ON\n",15);
 			VCP_send_buffer_new("BIZ_TO_CPU_ON\n",14);
-		}
-		else
-			VCP_send_buffer_new("ERROR\n",6);
-		//-----------END_CPU_TEST_ON--------------
-		delay(250);
-		//------------------SERIAL-----------------------
-		CLR_CPU_Pins();
-		GPIOG->ODR |= GPIO_ODR_ODR_2;
-		VCP_send_buffer_new("SERIAL_ON\n",10);
-		//----------------END_SERIAL---------------------
-		delay(250);
-		//---------------POWER_ON_CPU--------------------
-		POWER_NI_ON;
-		POWER_SUMM_NI_ON;
-		delay(20);
-		if(((GPIOF->IDR & GPIO_Pin_11) != 0) && ((GPIOF->IDR & GPIO_Pin_12) != 0))
-		{
-			VCP_send_buffer_new("POWER_NI_ON\n",12);
-			VCP_send_buffer_new("POWER_SUMM_NI_ON\n",17);
+			//-----------END_CPU_TEST_ON--------------
+			delay(250);
+			//------------------SERIAL-----------------------
+			CLR_CPU_Pins();
+			GPIOG->ODR |= GPIO_ODR_ODR_2;
+			VCP_send_buffer_new("SERIAL_ON\n",10);
+			//----------------END_SERIAL---------------------
+			delay(250);
+
+			POWER_NI_ON;
+			POWER_SUMM_NI_ON;
+			delay(20);
+			if(((GPIOF->IDR & GPIO_Pin_11) > 0) && ((GPIOF->IDR & GPIO_Pin_12) > 0))
+			{
+				//---------------POWER_ON_CPU--------------------
+				VCP_send_buffer_new("POWER_NI_ON\n",12);
+				VCP_send_buffer_new("POWER_SUMM_NI_ON\n",17);
+				FIND_LIGHT_LED();
+				//------------END_POWER_ON_CPU--------------------
+			}
+			else
+				VCP_send_buffer_new("ERROR\n",6);
 		}
 		else
 			VCP_send_buffer_new("ERROR\n",6);
 
-		FIND_LIGHT_LED();
-		//------------END_POWER_ON_CPU--------------------
 		return 11;
 	}
 	else

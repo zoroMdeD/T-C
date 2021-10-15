@@ -17,8 +17,8 @@
 
 #define RX_BUF_SIZE 80							//Размер буфера приема USART
 uint8_t RXi;									//Номер элемента массива принятых данных USART
-/*volatile*/ char RXc;								//Буффер данных приема USART
-/*volatile*/ char RX_BUF[RX_BUF_SIZE] = {'\0'};		//Массив данных принятых по USART
+char RXc;										//Буффер данных приема USART
+char RX_BUF[RX_BUF_SIZE] = {'\0'};				//Массив данных принятых по USART
 
 char mass[20][20];								//Массив для хранения разобранных адресов устройств bluetooth
 const char string1[] = "AT+RNAME? ";			//Комманда запроса имени устройства bluetooth

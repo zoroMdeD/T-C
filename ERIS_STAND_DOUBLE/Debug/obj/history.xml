@@ -1,92 +1,92 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F407IG -DSTM32F4XX -ID:\YandexDisk -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_cpu -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\delay -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\cmsis -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\command -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_wrele -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\cmsis_lib -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_biz -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_rele -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_oled -ID:\YandexDisk\YandexDisk -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1 -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\cmsis_lib\include -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\ub_lib\usb_cdc_lolevel -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\cmsis_boot -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_led -ID:\YandexDisk\YandexDisk\T&C_v.1.0.1\ub_lib">
-      <target file="stm32f4xx_gpio.o" lastModified="17c7f7c5df4">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="17c50449bc6"/>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F407IG -DSTM32F4XX -I..\..\..\..\..\YandexDisk -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_cpu -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\delay -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\cmsis -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\command -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_wrele -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\cmsis_lib -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_biz -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_rele -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_oled -I..\..\..\..\..\YandexDisk\YandexDisk -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1 -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\cmsis_lib\include -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\ub_lib\usb_cdc_lolevel -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\cmsis_boot -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\smart_led -I..\..\..\..\..\YandexDisk\YandexDisk\T&C_v.1.0.1\ub_lib">
+      <target file="stm32f4xx_gpio.o" lastModified="17c8112f3c2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="17c5ebbf8b9"/>
       </target>
-      <target file="smart_wrele.o" lastModified="17c7f7c601b">
-         <source file="..\..\..\smart_wrele\smart_wrele.c" lastModified="17c564e0fde"/>
+      <target file="smart_wrele.o" lastModified="17c8112f93f">
+         <source file="..\..\..\smart_wrele\smart_wrele.c" lastModified="17c5ebbcc1d"/>
       </target>
-      <target file="smart_cpu.o" lastModified="17c7f7c4780">
-         <source file="..\..\..\smart_cpu\smart_cpu.c" lastModified="17c743079b5"/>
+      <target file="smart_cpu.o" lastModified="17c8112e577">
+         <source file="..\..\..\smart_cpu\smart_cpu.c" lastModified="17c8107faf7"/>
       </target>
-      <target file="stm32_ub_usb_cdc.o" lastModified="17c7f7c44d1">
-         <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.c" lastModified="17c5044960b"/>
+      <target file="stm32_ub_usb_cdc.o" lastModified="17c8112e3b5">
+         <source file="..\..\..\ub_lib\stm32_ub_usb_cdc.c" lastModified="17c5ebbf337"/>
       </target>
-      <target file="usbd_core.o" lastModified="17c7f7c5053">
-         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.c" lastModified="17c50449ad1"/>
+      <target file="usbd_core.o" lastModified="17c8112eb2e">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_core.c" lastModified="17c5ebc08e7"/>
       </target>
-      <target file="usbd_desc.o" lastModified="17c7f7c5db5">
-         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.c" lastModified="17c5044958e"/>
+      <target file="usbd_desc.o" lastModified="17c8112f31b">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_desc.c" lastModified="17c5ebbf0da"/>
       </target>
-      <target file="usbd_cdc_core.o" lastModified="17c7f7c5fd0">
-         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.c" lastModified="17c5044a05f"/>
+      <target file="usbd_cdc_core.o" lastModified="17c8112f86c">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_core.c" lastModified="17c5ebc1091"/>
       </target>
-      <target file="usbd_cdc_vcp.o" lastModified="17c7f7c5e37">
-         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.c" lastModified="17c50449b7c"/>
+      <target file="usbd_cdc_vcp.o" lastModified="17c8112f470">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_cdc_vcp.c" lastModified="17c806b25d3"/>
       </target>
-      <target file="smart_biz.o" lastModified="17c7f7c5c96">
-         <source file="..\..\..\smart_biz\smart_biz.c" lastModified="17c74bc39da"/>
+      <target file="smart_biz.o" lastModified="17c8112f031">
+         <source file="..\..\..\smart_biz\smart_biz.c" lastModified="17c74d565ba"/>
       </target>
-      <target file="command.o" lastModified="17c7f7c4bc7">
-         <source file="..\..\..\command\command.c" lastModified="17c7f7bedd1"/>
+      <target file="command.o" lastModified="17c8112e7ea">
+         <source file="..\..\..\command\command.c" lastModified="17c806874b6"/>
       </target>
-      <target file="usbd_ioreq.o" lastModified="17c7f7c60cd">
-         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.c" lastModified="17c5044938e"/>
+      <target file="usbd_ioreq.o" lastModified="17c8112fb0c">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_ioreq.c" lastModified="17c5ebbe97f"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="17c7f7c500f">
-         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="17c50449ae5"/>
+      <target file="startup_stm32f4xx.o" lastModified="17c8112ea90">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="17c5ebbf82c"/>
       </target>
-      <target file="stm32f4xx_tim.o" lastModified="17c7f7c6141">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="17c50448a45"/>
+      <target file="stm32f4xx_tim.o" lastModified="17c8112fc44">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="17c5ebbc391"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="17c7f7c5e7c">
-         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="17c50449812"/>
+      <target file="system_stm32f4xx.o" lastModified="17c8112f4f5">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="17c5ebbf699"/>
       </target>
-      <target file="usb_bsp.o" lastModified="17c7f7c5ef4">
-         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.c" lastModified="17c504492cd"/>
+      <target file="usb_bsp.o" lastModified="17c8112f626">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_bsp.c" lastModified="17c5ebbe73f"/>
       </target>
-      <target file="misc.o" lastModified="17c7f7c6050">
-         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="17c50449d4e"/>
+      <target file="misc.o" lastModified="17c8112f9d1">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="17c5ebc1270"/>
       </target>
-      <target file="usbd_req.o" lastModified="17c7f7c5f3f">
-         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.c" lastModified="17c5044a0d9"/>
+      <target file="usbd_req.o" lastModified="17c8112f6d5">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_req.c" lastModified="17c5ebc08f7"/>
       </target>
-      <target file="usb_dcd.o" lastModified="17c7f7c6093">
-         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.c" lastModified="17c5044988c"/>
+      <target file="usb_dcd.o" lastModified="17c8112fa7f">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd.c" lastModified="17c5ebbff23"/>
       </target>
-      <target file="usb_dcd_int.o" lastModified="17c7f7c5f8e">
-         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.c" lastModified="17c5044a211"/>
+      <target file="usb_dcd_int.o" lastModified="17c8112f7a5">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_dcd_int.c" lastModified="17c5ebc0187"/>
       </target>
-      <target file="smart_rele.o" lastModified="17c7f7c4f9d">
-         <source file="..\..\..\smart_rele\smart_rele.c" lastModified="17c74c4921a"/>
+      <target file="smart_rele.o" lastModified="17c8112e97b">
+         <source file="..\..\..\smart_rele\smart_rele.c" lastModified="17c74d560b6"/>
       </target>
-      <target file="stm32f4xx_rcc.o" lastModified="17c7f7c5ce5">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="17c50448dc2"/>
+      <target file="stm32f4xx_rcc.o" lastModified="17c8112f0fb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="17c5ebbcb2b"/>
       </target>
-      <target file="smart_led.o" lastModified="17c7f7c5d31">
-         <source file="..\..\..\smart_led\smart_led.c" lastModified="17c736c6ca3"/>
+      <target file="smart_led.o" lastModified="17c8112f1d0">
+         <source file="..\..\..\smart_led\smart_led.c" lastModified="17c73e65fcf"/>
       </target>
-      <target file="delay.o" lastModified="17c7f7c4497">
-         <source file="..\..\..\delay\delay.c" lastModified="17c504488fd"/>
+      <target file="delay.o" lastModified="17c8112e2fb">
+         <source file="..\..\..\delay\delay.c" lastModified="17c5ebbc0e2"/>
       </target>
-      <target file="usb_core.o" lastModified="17c7f7c445d">
-         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.c" lastModified="17c50449312"/>
+      <target file="usb_core.o" lastModified="17c8112e24c">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usb_core.c" lastModified="17c5ebbdf60"/>
       </target>
-      <target file="syscalls.o" lastModified="17c7f7c5eb7">
-         <source file="..\..\..\syscalls\syscalls.c" lastModified="17c5044905e"/>
+      <target file="syscalls.o" lastModified="17c8112f592">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="17c5ebbdf42"/>
       </target>
-      <target file="smart_oled.o" lastModified="17c7f7c5d7b">
-         <source file="..\..\..\smart_oled\smart_oled.c" lastModified="17c564e0fe6"/>
+      <target file="smart_oled.o" lastModified="17c8112f292">
+         <source file="..\..\..\smart_oled\smart_oled.c" lastModified="17c5ebbcb4c"/>
       </target>
-      <target file="usbd_usr.o" lastModified="17c7f7c47c0">
-         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.c" lastModified="17c50449246"/>
+      <target file="usbd_usr.o" lastModified="17c8112e604">
+         <source file="..\..\..\ub_lib\usb_cdc_lolevel\usbd_usr.c" lastModified="17c5ebbe4c1"/>
       </target>
-      <target file="main.o" lastModified="17c7f7c5c35">
-         <source file="..\..\..\main.c" lastModified="17c7f6a902a"/>
+      <target file="main.o" lastModified="17c8112ef47">
+         <source file="..\..\..\main.c" lastModified="17c8112d870"/>
       </target>
-      <target file="stm32f4xx_usart.o" lastModified="17c7f7c4fe9">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="17c50448e41"/>
+      <target file="stm32f4xx_usart.o" lastModified="17c8112ea34">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="17c5ebbd23b"/>
       </target>
    </processor>
 </history>
