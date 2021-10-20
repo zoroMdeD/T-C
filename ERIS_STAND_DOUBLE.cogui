@@ -35,21 +35,21 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/main.c" title="main.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/main.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/main.c" title="main.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="779" selectionTopPixel="169"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="4479" selectionTopPixel="2195"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="smart_biz.c" partName="smart_biz.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_biz/smart_biz.c" title="smart_biz.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_biz/smart_biz.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/smart_biz/smart_biz.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="5359" selectionTopPixel="4531"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5376" selectionTopPixel="2330"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="smart_led.c" partName="smart_led.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_led/smart_led.c" title="smart_led.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_led/smart_led.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/smart_led/smart_led.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="591" selectionTopPixel="171"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1008" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="command.c" partName="command.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/command/command.c" title="command.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/command/command.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="command.c" partName="command.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/command/command.c" title="command.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/command/command.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/command/command.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="15982" selectionTopPixel="18341"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="20270" selectionTopPixel="10905"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/main.h" title="main.h" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/main.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/main.h"/>
@@ -57,7 +57,7 @@
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="smart_rele.c" partName="smart_rele.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_rele/smart_rele.c" title="smart_rele.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_rele/smart_rele.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/smart_rele/smart_rele.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="1886" selectionTopPixel="981"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2740" selectionTopPixel="5"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="command.h" partName="command.h" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/command/command.h" title="command.h" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/command/command.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/command/command.h"/>
@@ -65,7 +65,7 @@
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="smart_cpu.c" partName="smart_cpu.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_cpu/smart_cpu.c" title="smart_cpu.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_cpu/smart_cpu.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/smart_cpu/smart_cpu.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="2477" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3491" selectionTopPixel="1440"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="smart_wrele.c" partName="smart_wrele.c" path="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_wrele/smart_wrele.c" title="smart_wrele.c" tooltip="D:/YandexDisk/YandexDisk/T&amp;C_v.1.0.1/smart_wrele/smart_wrele.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ERIS_STAND_DOUBLE/smart_wrele/smart_wrele.c"/>
@@ -97,7 +97,7 @@
 <viewState/>
 </view>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="1" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="46">
+<viewState CommonNavigator.LINKING_ENABLED="1" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="10">
 <expanded>
 <element path="/ERIS_STAND_DOUBLE"/>
 <element path="/ERIS_STAND_DOUBLE/cmsis_boot"/>
@@ -112,7 +112,7 @@
 <element path="/ERIS_STAND_DOUBLE/ub_lib/usb_cdc_lolevel"/>
 </expanded>
 <selection>
-<element path="/ERIS_STAND_DOUBLE/main.c"/>
+<element path="/ERIS_STAND_DOUBLE/command/command.c"/>
 </selection>
 </viewState>
 </view>
@@ -347,125 +347,40 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_cpu/smart_cpu.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_rele/smart_rele.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/command/command.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/main.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/command/command.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_led/smart_led.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/ub_lib/stm32_ub_usb_cdc.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_biz/smart_biz.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_biz/smart_biz.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_rele/smart_rele.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_led/smart_led.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_cpu/smart_cpu.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_cpu/smart_cpu.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/command/command.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ERIS_STAND_DOUBLE/smart_led/smart_led.c"/>
 </editors>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="329" y="15"/>
-</item>
-<item historyLabel="stm32_ub_usb_cdc.c" index="7">
-<position info="not_deleted" x="4963" y="0"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="216" y="0"/>
-</item>
-<item historyLabel="main.h" index="3">
-<position info="not_deleted" x="1742" y="0"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position/>
-</item>
-<item historyLabel="command.h" index="2">
-<position info="not_deleted" x="68" y="0"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="216" y="0"/>
-</item>
-<item historyLabel="command.c" index="4">
-<position info="not_deleted" x="575" y="0"/>
-</item>
-<item historyLabel="command.h" index="2">
-<position info="not_deleted" x="68" y="0"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="216" y="0"/>
-</item>
-<item historyLabel="smart_biz.c" index="8">
-<position info="not_deleted" x="4842" y="5"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="1137" y="13"/>
-</item>
-<item historyLabel="smart_biz.c" index="8">
-<position info="not_deleted" x="4842" y="5"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="2278" y="0"/>
-</item>
-<item historyLabel="smart_biz.c" index="8">
-<position info="not_deleted" x="4842" y="5"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="2436" y="12"/>
-</item>
-<item historyLabel="smart_biz.c" index="8">
-<position info="not_deleted" x="5359" y="5"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="3417" y="5"/>
-</item>
-<item historyLabel="smart_rele.c" index="1">
-<position info="not_deleted" x="1886" y="11"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="5660" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="5">
-<position info="not_deleted" x="659" y="10"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="5298" y="0"/>
-</item>
-<item historyLabel="command.c" index="4">
-<position info="not_deleted" x="15597" y="16"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="5298" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="5">
-<position info="not_deleted" x="841" y="8"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="5297" y="0"/>
-</item>
-<item historyLabel="command.c" index="4">
-<position info="not_deleted" x="14611" y="19"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="5658" y="0"/>
-</item>
-<item historyLabel="smart_led.c" index="5">
+<item historyLabel="smart_led.c" index="4">
 <position info="not_deleted" x="961" y="0"/>
 </item>
-<item historyLabel="command.c" index="4">
-<position info="not_deleted" x="15982" y="12"/>
-</item>
-<item historyLabel="smart_led.c" index="5">
-<position info="not_deleted" x="961" y="0"/>
-</item>
-<item historyLabel="main.c" index="6">
+<item historyLabel="main.c" index="5">
 <position info="not_deleted" x="7861" y="15"/>
 </item>
 <item historyLabel="smart_cpu.c" index="0">
 <position info="not_deleted" x="3090" y="9"/>
 </item>
-<item historyLabel="main.c" index="6">
+<item historyLabel="main.c" index="5">
 <position info="not_deleted" x="7872" y="0"/>
 </item>
 <item historyLabel="smart_cpu.c" index="0">
 <position info="not_deleted" x="1709" y="12"/>
 </item>
-<item historyLabel="main.c" index="6">
+<item historyLabel="main.c" index="5">
 <position info="not_deleted" x="7872" y="0"/>
 </item>
 <item historyLabel="smart_cpu.c" index="0">
 <position info="not_deleted" x="2657" y="0"/>
 </item>
-<item historyLabel="main.c" index="6">
+<item historyLabel="main.c" index="5">
 <position info="not_deleted" x="7439" y="14"/>
 </item>
 <item historyLabel="smart_cpu.c" index="0">
@@ -474,19 +389,19 @@
 <item historyLabel="smart_rele.c" index="1">
 <position info="not_deleted" x="1886" y="11"/>
 </item>
-<item historyLabel="command.c" index="4">
+<item historyLabel="command.c" index="3">
 <position info="not_deleted" x="15982" y="12"/>
 </item>
-<item historyLabel="smart_led.c" index="5">
+<item historyLabel="smart_led.c" index="4">
 <position info="not_deleted" x="961" y="0"/>
 </item>
-<item historyLabel="smart_biz.c" index="8">
+<item historyLabel="smart_biz.c" index="6">
 <position info="not_deleted" x="5359" y="5"/>
 </item>
-<item historyLabel="main.c" index="6">
+<item historyLabel="main.c" index="5">
 <position info="not_deleted" x="5275" y="0"/>
 </item>
-<item historyLabel="command.c" index="4">
+<item historyLabel="command.c" index="3">
 <position info="not_deleted" x="15982" y="12"/>
 </item>
 <item historyLabel="smart_rele.c" index="1">
@@ -498,11 +413,101 @@
 <item historyLabel="smart_cpu.c" index="0">
 <position info="not_deleted" x="2477" y="4"/>
 </item>
-<item historyLabel="smart_led.c" index="5">
+<item historyLabel="smart_led.c" index="4">
 <position info="not_deleted" x="591" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="6">
+<item historyLabel="main.c" index="5">
 <position info="not_deleted" x="5275" y="0"/>
+</item>
+<item historyLabel="smart_biz.c" index="7">
+<position info="not_deleted" x="5359" y="5"/>
+</item>
+<item historyLabel="smart_biz.c" index="7">
+<position info="not_deleted" x="5376" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="2378" y="15"/>
+</item>
+<item historyLabel="smart_rele.c" index="8">
+<position info="not_deleted" x="1886" y="11"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="2864" y="13"/>
+</item>
+<item historyLabel="smart_rele.c" index="8">
+<position info="not_deleted" x="2740" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="2864" y="13"/>
+</item>
+<item historyLabel="smart_led.c" index="9">
+<position info="not_deleted" x="591" y="0"/>
+</item>
+<item historyLabel="smart_led.c" index="9">
+<position info="not_deleted" x="1250" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="5454" y="15"/>
+</item>
+<item historyLabel="smart_cpu.c" index="10">
+<position info="not_deleted" x="3474" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="5984" y="12"/>
+</item>
+<item historyLabel="smart_cpu.c" index="10">
+<position info="not_deleted" x="2426" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="7193" y="0"/>
+</item>
+<item historyLabel="smart_cpu.c" index="10">
+<position info="not_deleted" x="1709" y="12"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="7193" y="0"/>
+</item>
+<item historyLabel="smart_cpu.c" index="11">
+<position info="not_deleted" x="3491" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="4479" y="0"/>
+</item>
+<item historyLabel="command.c" index="12">
+<position info="not_deleted" x="15982" y="12"/>
+</item>
+<item historyLabel="command.c" index="12">
+<position info="not_deleted" x="20232" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="4479" y="0"/>
+</item>
+<item historyLabel="smart_led.c" index="13">
+<position info="not_deleted" x="1250" y="0"/>
+</item>
+<item historyLabel="smart_led.c" index="13">
+<position info="not_deleted" x="904" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="4479" y="14"/>
+</item>
+<item historyLabel="command.c" index="12">
+<position info="not_deleted" x="20200" y="0"/>
+</item>
+<item historyLabel="smart_led.c" index="13">
+<position info="not_deleted" x="955" y="20"/>
+</item>
+<item historyLabel="command.c" index="12">
+<position info="not_deleted" x="15932" y="0"/>
+</item>
+<item historyLabel="smart_led.c" index="13">
+<position info="not_deleted" x="1008" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="4479" y="14"/>
+</item>
+<item active="true" historyLabel="command.c" index="12">
+<position info="not_deleted" x="18963" y="14"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -511,48 +516,47 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32_ub_usb_cdc.c" tooltip="ERIS_STAND_DOUBLE/ub_lib/stm32_ub_usb_cdc.c">
-<persistable path="/ERIS_STAND_DOUBLE/ub_lib/stm32_ub_usb_cdc.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_core.c" tooltip="ERIS_STAND_DOUBLE/ub_lib/usb_cdc_lolevel/usb_core.c">
+<persistable path="/ERIS_STAND_DOUBLE/ub_lib/usb_cdc_lolevel/usb_core.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbd_cdc_vcp.c" tooltip="ERIS_STAND_DOUBLE/ub_lib/usb_cdc_lolevel/usbd_cdc_vcp.c">
-<persistable path="/ERIS_STAND_DOUBLE/ub_lib/usb_cdc_lolevel/usbd_cdc_vcp.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="smart_oled.c" tooltip="ERIS_STAND_DOUBLE/smart_oled/smart_oled.c">
+<persistable path="/ERIS_STAND_DOUBLE/smart_oled/smart_oled.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="command.c" tooltip="ERIS_STAND_DOUBLE/command/command.c">
-<persistable path="/ERIS_STAND_DOUBLE/command/command.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f4xx.c" tooltip="ERIS_STAND_DOUBLE/cmsis_boot/system_stm32f4xx.c">
+<persistable path="/ERIS_STAND_DOUBLE/cmsis_boot/system_stm32f4xx.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="smart_led.c" tooltip="ERIS_STAND_DOUBLE/smart_led/smart_led.c">
-<persistable path="/ERIS_STAND_DOUBLE/smart_led/smart_led.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="smart_wrele.h" tooltip="ERIS_STAND_DOUBLE/smart_wrele/smart_wrele.h">
+<persistable path="/ERIS_STAND_DOUBLE/smart_wrele/smart_wrele.h"/>
 </file>
-<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
-<persistable>&#x0A;<subPage/>
-</persistable>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="smart_wrele.c" tooltip="ERIS_STAND_DOUBLE/smart_wrele/smart_wrele.c">
+<persistable path="/ERIS_STAND_DOUBLE/smart_wrele/smart_wrele.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbd_cdc_core.h" tooltip="ERIS_STAND_DOUBLE/ub_lib/usb_cdc_lolevel/usbd_cdc_core.h">
-<persistable path="/ERIS_STAND_DOUBLE/ub_lib/usb_cdc_lolevel/usbd_cdc_core.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="smart_cpu.c" tooltip="ERIS_STAND_DOUBLE/smart_cpu/smart_cpu.c">
+<persistable path="/ERIS_STAND_DOUBLE/smart_cpu/smart_cpu.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbd_cdc_vcp.h" tooltip="ERIS_STAND_DOUBLE/ub_lib/usb_cdc_lolevel/usbd_cdc_vcp.h">
-<persistable path="/ERIS_STAND_DOUBLE/ub_lib/usb_cdc_lolevel/usbd_cdc_vcp.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="command.h" tooltip="ERIS_STAND_DOUBLE/command/command.h">
+<persistable path="/ERIS_STAND_DOUBLE/command/command.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="arm_pid_init_f32.c" tooltip="STM32F4_Discovery_CoOS/PID/Source/arm_pid_init_f32.c">
-<persistable path="/STM32F4_Discovery_CoOS/PID/Source/arm_pid_init_f32.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="smart_rele.c" tooltip="ERIS_STAND_DOUBLE/smart_rele/smart_rele.c">
+<persistable path="/ERIS_STAND_DOUBLE/smart_rele/smart_rele.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="ERIS_STAND_DOUBLE/cmsis_boot/stm32f4xx.h">
-<persistable path="/ERIS_STAND_DOUBLE/cmsis_boot/stm32f4xx.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" tooltip="ERIS_STAND_DOUBLE/main.h">
+<persistable path="/ERIS_STAND_DOUBLE/main.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_adc.h" tooltip="TEST_DAC/cmsis_lib/include/stm32f4xx_adc.h">
-<persistable path="/TEST_DAC/cmsis_lib/include/stm32f4xx_adc.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="smart_biz.c" tooltip="ERIS_STAND_DOUBLE/smart_biz/smart_biz.c">
+<persistable path="/ERIS_STAND_DOUBLE/smart_biz/smart_biz.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="init_per.c" tooltip="STM32F4_Discovery_CoOS/init_per/init_per.c">
-<persistable path="/STM32F4_Discovery_CoOS/init_per/init_per.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="ERIS_STAND_DOUBLE/main.c">
+<persistable path="/ERIS_STAND_DOUBLE/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="STM32F4_Discovery_CoOS/main.c">
-<persistable path="/STM32F4_Discovery_CoOS/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" tooltip="STM32F407ZGT6_USB_CDC_VALID/main.h">
+<persistable path="/STM32F407ZGT6_USB_CDC_VALID/main.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f4xx.c" tooltip="STM32F4_Discovery_CoOS/cmsis_boot/system_stm32f4xx.c">
-<persistable path="/STM32F4_Discovery_CoOS/cmsis_boot/system_stm32f4xx.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbd_desc.c" tooltip="Firmware_ERIS_STM32F407VET6/ub_lib/usb_cdc_lolevel/usbd_desc.c">
+<persistable path="/Firmware_ERIS_STM32F407VET6/ub_lib/usb_cdc_lolevel/usbd_desc.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="STM32F4_Discovery_CoOS/cmsis_boot/stm32f4xx.h">
-<persistable path="/STM32F4_Discovery_CoOS/cmsis_boot/stm32f4xx.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usbd_core.h" tooltip="Firmware_ERIS_STM32F407VET6/ub_lib/usb_cdc_lolevel/usbd_core.h">
+<persistable path="/Firmware_ERIS_STM32F407VET6/ub_lib/usb_cdc_lolevel/usbd_core.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_conf.h" tooltip="STM32F4_Discovery_CoOS/cmsis_boot/stm32f4xx_conf.h">
 <persistable path="/STM32F4_Discovery_CoOS/cmsis_boot/stm32f4xx_conf.h"/>

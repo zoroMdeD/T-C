@@ -284,9 +284,9 @@ int main(void)
 					RELE_TO_BIZ_OFF;
 					BIZ_TO_CPU_OFF;
 				}
-				else if(strcmp(buffer_command,"VERSION") == 0)		//Запустить тестирование платы Smart_Cpu
+				else if(strcmp(buffer_command,"VERSION") == 0)
 				{
-					VCP_send_buffer_new("Firmware version: T&C_v.1.0.2\n",30);
+					VCP_send_buffer_new("Firmware version: T&C_v.1.0.3\n",30);
 				}
 				else
 				{

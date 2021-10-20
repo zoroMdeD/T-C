@@ -35,7 +35,7 @@
           <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
           <Memory name="IRAM2" type="ReadWrite" size="0x00010000" startValue="0x10000000"/>
         </MemoryAreas>
-        <LocateLinkFile path="../../../coocox/coide/configuration/programdata/eris_stand_double/arm-gcc-link.ld" type="0"/>
+        <LocateLinkFile path="c:/coocox/coide/configuration/programdata/eris_stand_double/link.ld" type="0"/>
       </Link>
       <Output>
         <Option name="OutputFileType" value="0"/>
@@ -92,17 +92,17 @@
     <File name="ub_lib/stm32_ub_usb_cdc.h" path="ub_lib/stm32_ub_usb_cdc.h" type="1"/>
     <File name="smart_biz/smart_biz.h" path="smart_biz/smart_biz.h" type="1"/>
     <File name="smart_led/smart_led.c" path="smart_led/smart_led.c" type="1"/>
-    <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
     <File name="smart_rele" path="" type="2"/>
-    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usb_bsp.h" path="ub_lib/usb_cdc_lolevel/usb_bsp.h" type="1"/>
-    <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usb_core.c" path="ub_lib/usb_cdc_lolevel/usb_core.c" type="1"/>
+    <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
     <File name="cmsis/core_cm4.h" path="cmsis/core_cm4.h" type="1"/>
     <File name="delay" path="" type="2"/>
-    <File name="ub_lib/usb_cdc_lolevel/usbd_desc.c" path="ub_lib/usb_cdc_lolevel/usbd_desc.c" type="1"/>
     <File name="smart_oled/smart_oled.h" path="smart_oled/smart_oled.h" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_desc.c" path="ub_lib/usb_cdc_lolevel/usbd_desc.c" type="1"/>
     <File name="delay/delay.h" path="delay/delay.h" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usb_defines.h" path="ub_lib/usb_cdc_lolevel/usb_defines.h" type="1"/>
     <File name="main.h" path="main.h" type="1"/>
@@ -111,24 +111,24 @@
     <File name="ub_lib/usb_cdc_lolevel/usbd_cdc_core.c" path="ub_lib/usb_cdc_lolevel/usbd_cdc_core.c" type="1"/>
     <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
     <File name="cmsis_lib/source" path="" type="2"/>
-    <File name="ub_lib/usb_cdc_lolevel/usbd_def.h" path="ub_lib/usb_cdc_lolevel/usbd_def.h" type="1"/>
     <File name="smart_wrele/smart_wrele.c" path="smart_wrele/smart_wrele.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_def.h" path="ub_lib/usb_cdc_lolevel/usbd_def.h" type="1"/>
     <File name="cmsis_boot/stm32f4xx_conf.h" path="cmsis_boot/stm32f4xx_conf.h" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usb_dcd.c" path="ub_lib/usb_cdc_lolevel/usb_dcd.c" type="1"/>
     <File name="cmsis_boot/system_stm32f4xx.h" path="cmsis_boot/system_stm32f4xx.h" type="1"/>
     <File name="delay/delay.c" path="delay/delay.c" type="1"/>
-    <File name="ub_lib/usb_cdc_lolevel/usbd_desc.h" path="ub_lib/usb_cdc_lolevel/usbd_desc.h" type="1"/>
     <File name="smart_oled/smart_oled.c" path="smart_oled/smart_oled.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_desc.h" path="ub_lib/usb_cdc_lolevel/usbd_desc.h" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_rcc.h" path="cmsis_lib/include/stm32f4xx_rcc.h" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usbd_usr.h" path="ub_lib/usb_cdc_lolevel/usbd_usr.h" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usb_dcd_int.c" path="ub_lib/usb_cdc_lolevel/usb_dcd_int.c" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel" path="" type="2"/>
-    <File name="smart_led/smart_led.h" path="smart_led/smart_led.h" type="1"/>
     <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
+    <File name="smart_led/smart_led.h" path="smart_led/smart_led.h" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>
     <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
-    <File name="ub_lib/usb_cdc_lolevel/usb_conf.h" path="ub_lib/usb_cdc_lolevel/usb_conf.h" type="1"/>
     <File name="command/command.c" path="command/command.c" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usb_conf.h" path="ub_lib/usb_cdc_lolevel/usb_conf.h" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usbd_core.h" path="ub_lib/usb_cdc_lolevel/usbd_core.h" type="1"/>
     <File name="ub_lib" path="" type="2"/>
     <File name="smart_wrele/smart_wrele.h" path="smart_wrele/smart_wrele.h" type="1"/>
@@ -137,8 +137,8 @@
     <File name="cmsis_boot/system_stm32f4xx.c" path="cmsis_boot/system_stm32f4xx.c" type="1"/>
     <File name="smart_biz" path="" type="2"/>
     <File name="ub_lib/usb_cdc_lolevel/usbd_req.c" path="ub_lib/usb_cdc_lolevel/usbd_req.c" type="1"/>
-    <File name="ub_lib/usb_cdc_lolevel/usbd_ioreq.c" path="ub_lib/usb_cdc_lolevel/usbd_ioreq.c" type="1"/>
     <File name="smart_cpu/smart_cpu.h" path="smart_cpu/smart_cpu.h" type="1"/>
+    <File name="ub_lib/usb_cdc_lolevel/usbd_ioreq.c" path="ub_lib/usb_cdc_lolevel/usbd_ioreq.c" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usbd_cdc_vcp.c" path="ub_lib/usb_cdc_lolevel/usbd_cdc_vcp.c" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usbd_cdc_core.h" path="ub_lib/usb_cdc_lolevel/usbd_cdc_core.h" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usb_dcd.h" path="ub_lib/usb_cdc_lolevel/usb_dcd.h" type="1"/>
@@ -148,9 +148,9 @@
     <File name="command/command.h" path="command/command.h" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usbd_core.c" path="ub_lib/usb_cdc_lolevel/usbd_core.c" type="1"/>
     <File name="ub_lib/usb_cdc_lolevel/usbd_req.h" path="ub_lib/usb_cdc_lolevel/usbd_req.h" type="1"/>
-    <File name="smart_cpu" path="" type="2"/>
-    <File name="cmsis_lib" path="" type="2"/>
     <File name="smart_wrele" path="" type="2"/>
+    <File name="cmsis_lib" path="" type="2"/>
+    <File name="smart_cpu" path="" type="2"/>
     <File name="cmsis_lib/source/stm32f4xx_tim.c" path="cmsis_lib/source/stm32f4xx_tim.c" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_gpio.h" path="cmsis_lib/include/stm32f4xx_gpio.h" type="1"/>
     <File name="syscalls" path="" type="2"/>

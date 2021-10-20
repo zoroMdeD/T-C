@@ -131,7 +131,7 @@ uint8_t Change_Test_Cpu(void)
 				//---------------POWER_ON_CPU--------------------
 				VCP_send_buffer_new("POWER_NI_ON\n",12);
 				VCP_send_buffer_new("POWER_SUMM_NI_ON\n",17);
-				FIND_LIGHT_LED();
+				//FIND_LIGHT_LED();
 				//------------END_POWER_ON_CPU--------------------
 			}
 			else
